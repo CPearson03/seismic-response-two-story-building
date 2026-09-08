@@ -20,7 +20,7 @@ This script:
        a hand-written Forward Euler integrator for both accuracy and
        computational cost.
 
-Author: [Your Name]
+Author: Charlie Pearson
 """
 
 from pathlib import Path
@@ -48,7 +48,7 @@ Y0 = np.array([0.0, 0.0, 0.0, 0.0])  # Initial state: [x1, v1, x2, v2]
 
 
 # ---------------------------------------------------------------------------
-# 1a. Polynomial least-squares fit (no constant term)
+# Polynomial least-squares fit (no constant term)
 # ---------------------------------------------------------------------------
 def polylsq(x, y, order, xlabel="x", ylabel="y", title="", save_as=None):
     """
@@ -62,7 +62,6 @@ def polylsq(x, y, order, xlabel="x", ylabel="y", title="", save_as=None):
     order : int
         Highest power of x included in the fit.
     save_as : str, optional
-        If given, filename (in figures/) to save the fit plot to.
 
     Returns
     -------
@@ -118,7 +117,7 @@ def fit_spring_and_damper_coefficients():
 
 
 # ---------------------------------------------------------------------------
-# 1b/1c. Equations of motion as a first-order system, RK4 and Euler solvers
+# Equations of motion as a first-order system, RK4 and Euler solvers
 # ---------------------------------------------------------------------------
 def ground_acceleration(t, period, amplitude):
     """Sinusoidal earthquake ground acceleration, active only for one period."""
