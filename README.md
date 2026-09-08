@@ -4,8 +4,9 @@ Numerical simulation of a two-story shear building subjected to earthquake groun
 motion, using a nonlinear spring-damper model for the inter-story connection.
 
 <p align="center">
-  <img src="figures/dynamic_response_A16.0.png" alt="Dynamic response" width="500">
+  <img src="figures/dynamic_response_A16.0.png" alt="Dynamic response" width="600">
 </p>
+
 ## Overview
 
 The building is modelled as two lumped floor masses connected by a nonlinear
