@@ -3,7 +3,7 @@
 Numerical simulation of a two-story shear building subjected to earthquake ground
 motion, using a nonlinear spring-damper model for the inter-story connection.
 
-![Dynamic response](figures/dynamic_response_A16.png)
+![Dynamic response](figures/dynamic_response_A16.0.png)
 
 ## Overview
 
@@ -31,7 +31,7 @@ This project:
 
 | Spring/damper fit | Timestep independence | Euler vs. RK4 |
 |---|---|---|
-| ![spring fit](figures/spring_force_fit.png) | ![timestep](figures/timestep_independence_A16.png) | ![comparison](figures/euler_vs_rk4_comparison.png) |
+| ![spring fit](figures/spring_force_fit.png) | ![timestep](figures/timestep_independence_A16.0.png) | ![comparison](figures/euler_vs_rk4_comparison.png) |
 
 ## Running it
 
